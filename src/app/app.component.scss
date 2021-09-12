@@ -1,0 +1,15 @@
+.main {
+  .navbar {
+    padding: 10px;
+    height: 70px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    fa-icon {
+      cursor: pointer;
+    }
+  }
+}

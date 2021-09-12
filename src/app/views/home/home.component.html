@@ -1,0 +1,16 @@
+<div class="file_wrapper">
+  <div *ngFor="let file of files" class=" m-2">
+    <div class="card">
+      <div class="header m-1 d-flex justify-content-between align-items-center">
+        <div class="name">
+          {{file.name}}
+        </div>
+        <div class="menu">
+        </div>
+      </div>
+      <div class="body">
+        <img [src]="file.url" alt="">
+      </div>
+    </div>
+  </div>
+</div>

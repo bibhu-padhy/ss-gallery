@@ -1,0 +1,22 @@
+.body {
+  img {
+    width: 200px;
+  }
+}
+
+.file_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px) {
+  .file_wrapper {
+    justify-content: center;
+  }
+
+  .body {
+    img {
+      width: 350px !important;
+    }
+  }
+}
